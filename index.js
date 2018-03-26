@@ -9,7 +9,8 @@ const PORT = process.env.PORT || 3000;
 
 //get route
 app.get('/',function(req,res){
-    res.send('hello');
+    res.send("Test");
+
 })
 
 
