@@ -5,11 +5,11 @@ const app = express();
 //Server set up
 const PORT = process.env.PORT || 3000;
 
-
+app.use(express.static('public'));
 
 //get route
 app.get('/',function(req,res){
-    res.send("Test");
+    res.send('Test');
 
 })
 
